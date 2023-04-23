@@ -13,7 +13,7 @@
 - Boolean 布尔
 - Undefinde 未定义
 - Null 空
-- Symbol 原子/符号 (es6+)
+- Symbol 符号 (es6+)
 - BigInt 大整数 (es6+)
 
 
@@ -22,7 +22,7 @@
 
 - Object 对象
 
-引用类型只有一个对象, 其他引用类型都是特殊的对象
+引用类型只有一个对象 , 其他引用类型都是特殊的对象
 
 Array , Function , Date 等等都是特殊的对象
 
