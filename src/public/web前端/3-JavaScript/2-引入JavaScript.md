@@ -107,7 +107,7 @@ document.body.appendChild(script); // 当将dom插入到页面时才开始执行
 
 
 
-**不再推荐的异步加载方案:**
+**另外的异步加载方案:**
 
 *script元素上的async属性:*
 
@@ -121,11 +121,11 @@ document.body.appendChild(script); // 当将dom插入到页面时才开始执行
 
 
 
-*script元素上的defer属性(IE):*
+*script元素上的defer属性*
 
-该属性不是标准属性 , 了解即可. 可以外部链接或者也可以将代码写到script内部（2选1）
+可以外部链接或者也可以将代码写到script内部
 
-等到dom文档全部解析完才会被执行
+等到dom文档全部解析完才会被执行 , 在 `DOMContentLoaded` 事件触发之前
 
 
 
