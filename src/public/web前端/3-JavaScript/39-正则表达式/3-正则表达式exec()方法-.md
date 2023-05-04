@@ -1,4 +1,4 @@
-## 正则表达式 `exec()` 方法 -
+## 正则表达式 `exec()` 方法 
 
 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec"
         target="_blank">MDN文档</a> 
