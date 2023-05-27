@@ -114,18 +114,5 @@ console.log(arguments.callee.toString());
 
 node 中可以直接访问全局 global `console.log(global);`
 
-全局的 this 指向 module.exports
 
- ````js
-console.log(this === module.exports); // true
- ````
-
-函数中 this 指向 global
-
-```js
-function test() {
-    console.log(this === global); // true
-}
-test();
-```
 

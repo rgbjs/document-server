@@ -41,6 +41,8 @@ let modul = require(url)
 
 
 
+
+
 ### 暴露数据
 
 使用完整的 `module.exports` 可以暴露任何数据
@@ -68,32 +70,4 @@ console.log(test); // { a: 1, b: 2, get: [Function (anonymous)], num: 10 }
 ```
 
 
-
-
-
-**简写暴露 exports**
-
-使用简写的 `exports` 进行暴露不支持覆盖 `exports`  , 若覆盖 `exports` 最终将返回一个空对象
-
-```js
-// 支持
-let name = 'haha';
-let age = 19;
-let sex = 'man';
-
-exports.name = name;
-exports.age = age;
-exports.sex = sex;
-
-// 不支持, 因为exports 进行了覆盖
-let name = 'haha';
-let age = 19;
-let sex = 'man';
-
-exports = {
-    name,
-    age,
-    sex
-}
-```
 
